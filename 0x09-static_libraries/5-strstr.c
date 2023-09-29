@@ -21,4 +21,6 @@ char *_strstr(char *haystack, char *needle)
 		if (*p == '\0')
 			return (haystack);
 	}
+/* If no match is found, return 0 */
+	return (0);
 }
